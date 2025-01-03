@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de exercício HTML e JS com formulário interativo.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tarefa-style.css">
+    <title>Exercício HTML e JS</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>
+                <a href="https://github.com/nikolasbrp" target="_blank" aria-label="Link para o GitHub" title="Link para o GitHub">
+                    &lt;n&gt;
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="#formulario">Atividade JS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-form" id="formulario">
+            <h2>Exercício HTML e JS</h2>
+            <form id="form-campos">
+                <label for="campo-a">Campo A:</label>
+                <input type="number" id="campo-a" placeholder="Digite o valor de A" required>
+                
+                <label for="campo-b">Campo B:</label>
+                <input type="number" id="campo-b" placeholder="Digite o valor de B" required>
+                
+                <button type="submit" id="btn-submit">Comparar</button>
+                <p id="mensagem"></p>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Níkolas Bánkuti - Todos os direitos reservados - 2024</p>
+        </div>
+    </footer>
+    <script src="./tarefa-js.js"></script>
+</body>
+
+</html>

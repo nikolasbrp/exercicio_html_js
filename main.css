@@ -32,6 +32,10 @@ header a {
     transition: color 0.3s ease;
 }
 
+.logo-color {
+    color: #db265c;
+}
+
 header ul {
     display: flex;
     gap: 16px;
